@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" width="40" height="23" tilewidth="16" tileheight="16" infinite="0" nextlayerid="4" nextobjectid="73">
+ <properties>
+  <property name="BackgroundColor" value="Purple"/>
+ </properties>
+ <tileset firstgid="1" source="Mario Pro Game.tsx"/>
+ <layer id="1" name="Background" width="40" height="23">
+  <properties>
+   <property name="BackgroundColor" value="Gray"/>
+  </properties>
+  <data encoding="csv">
+35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,18,19,19,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,18,19,19,20,0,0,0,0,18,19,19,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,
+35,35,0,0,0,0,0,0,0,18,19,19,20,0,0,0,0,0,0,0,0,0,0,0,0,18,19,19,20,0,0,0,0,0,0,0,35,35,35,35,
+35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,35,35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,35,35,35,
+35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,35,35,35,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,35,35,35,35,
+95,96,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,97,95,96,
+117,118,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,119,117,118,
+139,140,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140,141,139,140
+</data>
+ </layer>
+ <objectgroup id="2" name="Spawnpoints">
+  <object id="2" name="player" type="Player" x="16" y="240" width="31.7141" height="31.9784"/>
+  <object id="29" name="Bananas" type="Fruit" x="160" y="240" width="32" height="32"/>
+  <object id="31" name="Apple" type="Fruit" x="224" y="208" width="32" height="32"/>
+  <object id="32" name="Bananas" type="Fruit" x="288" y="176" width="32" height="32"/>
+  <object id="33" name="Apple" type="Fruit" x="352" y="208" width="32" height="32"/>
+  <object id="35" name="Bananas" type="Fruit" x="416" y="240" width="32" height="32"/>
+  <object id="41" name="Saw" type="Saw" x="448" y="304" width="32" height="32">
+   <properties>
+    <property name="isVertical" type="bool" value="false"/>
+    <property name="offNeg" type="float" value="7"/>
+    <property name="offPos" type="float" value="6"/>
+   </properties>
+  </object>
+  <object id="68" name="Checkpoint" type="Checkpoint" x="576" y="208" width="64" height="64"/>
+  <object id="72" name="Chicken" type="Chicken" x="128" y="288" width="32" height="32">
+   <properties>
+    <property name="offNeg" type="float" value="7"/>
+    <property name="offPos" type="float" value="8"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="3" name="Collisions">
+  <object id="12" name="Collisions" type="Collisions" x="0" y="320" width="640" height="48"/>
+  <object id="22" type="Platform" x="144" y="272" width="64" height="16"/>
+  <object id="23" type="Platform" x="208" y="240" width="64" height="16"/>
+  <object id="24" type="Platform" x="272" y="208" width="64" height="16"/>
+  <object id="25" type="Platform" x="336" y="240" width="64" height="16"/>
+  <object id="26" type="Platform" x="400" y="272" width="64" height="16"/>
+  <object id="27" name="Collisions" type="Collisions" x="272" y="288" width="64" height="32"/>
+  <object id="36" name="Collisions" type="Collisions" x="576" y="272" width="64" height="48"/>
+  <object id="42" name="Collisions" type="Collisions" x="0" y="272" width="32" height="48"/>
+  <object id="43" name="Collisions" type="Collisions" x="0" y="0" width="16" height="272"/>
+  <object id="44" name="Collisions" type="Collisions" x="624" y="0" width="16" height="352"/>
+  <object id="70" name="Collisions" type="Collisions" x="16" y="0" width="608" height="16"/>
+ </objectgroup>
+</map>
