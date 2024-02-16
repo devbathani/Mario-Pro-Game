@@ -1,16 +1,8 @@
-# mario_pro_game
+# Mario Pro Game
 
-A new Flutter project.
+Insipired from Mario and Pixel Adventure game
+<br>Learned from [Spellthorn](https://youtube.com/playlist?list=PLRRATgFqhVCh8qD7xmaSbwG1vfaCddvCM&si=TE7Cf4mxRKtuiykm)
 
-## Getting Started
+1. Sneak Peak
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Mario Pro Level 01

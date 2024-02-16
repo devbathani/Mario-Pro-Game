@@ -4,7 +4,6 @@ import 'package:flame/components.dart';
 import 'package:flame_tiled/flame_tiled.dart';
 import 'package:mario_pro_game/components/checkpoint/checkpoint.dart';
 import 'package:mario_pro_game/components/collisions_block.dart';
-import 'package:mario_pro_game/components/custom_background.dart';
 import 'package:mario_pro_game/components/enemies/chicken.dart';
 import 'package:mario_pro_game/components/fruit/fruit.dart';
 import 'package:mario_pro_game/components/player/player.dart';
@@ -18,22 +17,6 @@ class MarioProMap extends World with HasGameRef<MarioProGame> {
   List<CollisionsBlock> collisionBlockList = [];
 
   MarioProMap({required this.level, required this.player});
-
-  void scrollingBackground() {
-    final backgroundLayer = map.tileMap.getLayer("Background");
-
-    if (backgroundLayer != null) {
-      final backGroundColor =
-          backgroundLayer.properties.getValue("BackgroundColor");
-
-      final backgroundTile = CustomBackground(
-        color: backGroundColor ?? "Purple",
-        position: Vector2(0, 0),
-      );
-
-      add(backgroundTile);
-    }
-  }
 
   void spawingObjects() {
     final spawnPointsLayer = map.tileMap.getLayer<ObjectGroup>("Spawnpoints");
@@ -121,7 +104,7 @@ class MarioProMap extends World with HasGameRef<MarioProGame> {
   Future<void> onLoad() async {
     map = await TiledComponent.load(level, Vector2.all(16));
     add(map);
-    scrollingBackground();
+
     spawingObjects();
     addCollisions();
 

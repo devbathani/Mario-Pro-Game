@@ -3,7 +3,7 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "mario_pro_05.tmx",
+    "activeFile": "mario_pro_01.tmx",
     "expandedProjectPaths": [
         "."
     ],
@@ -11,6 +11,9 @@
         "Enemies.tsx": {
             "scaleInDock": 2.4031,
             "scaleInEditor": 0.65
+        },
+        "Mario Pro Game.tsx": {
+            "scaleInDock": 1
         },
         "Otpless Game.tsx": {
             "scaleInDock": 1.1861,
@@ -33,11 +36,11 @@
                 2,
                 3
             ],
-            "scale": 0.9643,
-            "selectedLayer": 2,
+            "scale": 0.96,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 320.9582080265477,
-                "y": 177.84921704863638
+                "x": 303.64583333333337,
+                "y": 123.43750000000006
             }
         },
         "mario_pro_02.tmx": {
@@ -49,7 +52,7 @@
             "selectedLayer": 0,
             "viewCenter": {
                 "x": 319.4956685822112,
-                "y": 184.83574920662153
+                "y": 185.69345569945963
             }
         },
         "mario_pro_03.tmx": {
@@ -60,7 +63,7 @@
             "scale": 1.5102,
             "selectedLayer": 2,
             "viewCenter": {
-                "x": 319.494106740829,
+                "x": 318.8319427890346,
                 "y": 184.41266057475826
             }
         },
@@ -68,19 +71,19 @@
             "expandedObjectLayers": [
                 2
             ],
-            "scale": 0.9947,
-            "selectedLayer": 0,
+            "scale": 2.2085,
+            "selectedLayer": 1,
             "viewCenter": {
-                "x": 320.1970443349753,
-                "y": 184.47773197949135
+                "x": 271.4512112293412,
+                "y": 238.84989812089657
             }
         },
         "mario_pro_05.tmx": {
-            "scale": 1.2939,
+            "scale": 0.8928,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 375.9950537135791,
-                "y": 248.47360692480098
+                "x": 465.3897849462366,
+                "y": 240.25537634408607
             }
         },
         "otpless_01.tmx": {
@@ -124,25 +127,19 @@
     "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
-        "Otpless Game.tsx",
-        "mario_pro_01.tmx",
-        "mario_pro_02.tmx",
-        "mario_pro_03.tmx",
-        "mario_pro_04.tmx",
-        "mario_pro_05.tmx",
-        "Enemies.tsx"
+        "mario_pro_01.tmx"
     ],
     "project": "Mario Pro Game.tiled-project",
     "property.type": "float",
     "recentFiles": [
         "mario_pro_01.tmx",
-        "otpless_01.tmx",
-        "Otpless Game.tsx",
         "mario_pro_02.tmx",
         "mario_pro_03.tmx",
         "mario_pro_04.tmx",
-        "Enemies.tsx",
         "mario_pro_05.tmx",
+        "Enemies.tsx",
+        "otpless_01.tmx",
+        "Otpless Game.tsx",
         "enemies.tsx",
         "blocks.tsx",
         "block.tsx",
