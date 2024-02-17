@@ -23,8 +23,11 @@ class MarioProGame extends FlameGame
   bool showControlls = false;
   bool playSound = true;
   List<String> levelNames = [
+    "mario_pro_04.tmx",
     "mario_pro_01.tmx",
     "mario_pro_02.tmx",
+    "mario_pro_03.tmx",
+    "mario_pro_05.tmx",
   ];
   int currentLevelIndex = 0;
   void addJoyStick() {

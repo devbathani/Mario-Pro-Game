@@ -3,10 +3,11 @@
         "height": 4300,
         "width": 2
     },
-    "activeFile": "mario_pro_01.tmx",
+    "activeFile": "mario_pro_04.tmx",
     "expandedProjectPaths": [
         "."
     ],
+    "file.lastUsedOpenFilter": "All Files (*)",
     "fileStates": {
         "Enemies.tsx": {
             "scaleInDock": 2.4031,
@@ -33,26 +34,26 @@
         },
         "mario_pro_01.tmx": {
             "expandedObjectLayers": [
-                2,
-                3
+                3,
+                2
             ],
             "scale": 0.96,
             "selectedLayer": 1,
             "viewCenter": {
-                "x": 303.64583333333337,
-                "y": 123.43750000000006
+                "x": 320.3125,
+                "y": 178.64583333333331
             }
         },
         "mario_pro_02.tmx": {
             "expandedObjectLayers": [
-                2,
-                3
+                3,
+                2
             ],
-            "scale": 1.1659,
-            "selectedLayer": 0,
+            "scale": 1.0934,
+            "selectedLayer": 2,
             "viewCenter": {
-                "x": 319.4956685822112,
-                "y": 185.69345569945963
+                "x": 334.27839765867935,
+                "y": 176.056338028169
             }
         },
         "mario_pro_03.tmx": {
@@ -71,11 +72,11 @@
             "expandedObjectLayers": [
                 2
             ],
-            "scale": 2.2085,
-            "selectedLayer": 1,
+            "scale": 1.2294,
+            "selectedLayer": 0,
             "viewCenter": {
-                "x": 271.4512112293412,
-                "y": 238.84989812089657
+                "x": 272.8973482999837,
+                "y": 271.2705384740524
             }
         },
         "mario_pro_05.tmx": {
@@ -127,15 +128,17 @@
     "map.tileWidth": 16,
     "map.width": 40,
     "openFiles": [
-        "mario_pro_01.tmx"
+        "mario_pro_01.tmx",
+        "mario_pro_04.tmx",
+        "mario_pro_02.tmx"
     ],
     "project": "Mario Pro Game.tiled-project",
     "property.type": "float",
     "recentFiles": [
         "mario_pro_01.tmx",
         "mario_pro_02.tmx",
-        "mario_pro_03.tmx",
         "mario_pro_04.tmx",
+        "mario_pro_03.tmx",
         "mario_pro_05.tmx",
         "Enemies.tsx",
         "otpless_01.tmx",
